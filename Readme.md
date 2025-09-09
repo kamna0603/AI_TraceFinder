@@ -1,11 +1,11 @@
-# 🖼️ AI TraceFinder — Forensic Scanner Identification  
+#  AI TraceFinder — Forensic Scanner Identification  
 
-## 🌟 Overview  
+##  Overview  
 AI TraceFinder is a forensic machine learning platform that identifies the **source scanner device** used to digitize a document or image. Each scanner (brand/model) introduces unique **noise, texture, and compression artifacts** that serve as a fingerprint. By analyzing these patterns, AI TraceFinder enables **fraud detection, authentication, and forensic validation** in scanned documents.  
 
 ---
 
-## 🎯 Goals & Objectives  
+##  Goals & Objectives  
 - Collect and label scanned document datasets from multiple scanners  
 - Robust preprocessing (resize, grayscale, normalize, denoise)  
 - Extract scanner-specific features (noise, FFT, PRNU, texture descriptors)  
@@ -16,7 +16,7 @@ AI TraceFinder is a forensic machine learning platform that identifies the **sou
 
 ---
 
-## 🧭 Methodology (High-Level)  
+##  Methodology 
 1. **Data Collection & Labeling**  
    - Gather scans from 3–5 scanner models/brands  
    - Create a structured, labeled dataset  
@@ -42,7 +42,7 @@ AI TraceFinder is a forensic machine learning platform that identifies the **sou
 
 ---
 
-## 🧠 Actionable Insights for Forensics  
+##  Actionable Insights for Forensics  
 - **Source Attribution:** Identify which scanner created a scanned copy of a document.  
 - **Fraud Detection:** Detect forgeries where unauthorized scanners were used.  
 - **Legal Verification:** Validate whether scanned evidence originated from approved devices.  
@@ -51,7 +51,7 @@ AI TraceFinder is a forensic machine learning platform that identifies the **sou
 
 ---
 
-## 🗺️ Architecture (Conceptual)  
+##  Architecture (Conceptual)  
 Input ➜ Preprocessing ➜ Feature Extraction + Modeling ➜ Evaluation & Explainability ➜ Prediction App  
 
 ---
@@ -68,7 +68,7 @@ Input ➜ Preprocessing ➜ Feature Extraction + Modeling ➜ Evaluation & Expla
 
 ---
 
-## 📂 Suggested Project Structure  
+##  Suggested Project Structure  
 ```bash
 ai-tracefinder/
 ├─ app.py              
@@ -81,6 +81,6 @@ ai-tracefinder/
 │  └─ utils/             
 ├─ data/                 
 ├─ notebooks/            
-├─ reports/              s
+├─ reports/              
 └─ README.md
 ```
