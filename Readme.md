@@ -81,6 +81,6 @@ ai-tracefinder/
 │  └─ utils/             
 ├─ data/                 
 ├─ notebooks/            
-├─ reports/              # Results, evaluation metrics, visualizations
+├─ reports/              s
 └─ README.md
 ```
