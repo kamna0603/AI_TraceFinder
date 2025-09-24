@@ -1,0 +1,20 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore dataset and large files
+Data/
+*.csv
+*.pkl
+*.joblib
+
+processed_data/git add .
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
